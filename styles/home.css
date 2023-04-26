@@ -9,8 +9,8 @@
 
   .home-left-section {
     max-width: 320px;
-    padding-right: 44px;
-    padding-bottom: 96px;
+    margin-right: 44px;
+    margin-top: 36px;
 
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@
 
 
   .home-right-section {
-    padding-top: 72px;
+    padding-top: 36px;
 
     flex: 1;
   }
@@ -75,6 +75,7 @@
   .home-section {
     display: flex;
     align-items: center;
+    min-height: calc(100vh - 82px);
   }
 
 
@@ -147,7 +148,6 @@
 .home-section {
   background-color: var(--beige);
   color: var(--dark-blue);
-  min-height: calc(100vh - 82px);
   padding-top: 82px;
 }
 
