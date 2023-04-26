@@ -45,7 +45,7 @@
   white-space: nowrap;
 }
 
-.header-right-section button {
+.header-button-on {
   background-color: var(--dark-blue);
   color: var(--beige);
   border: none;
@@ -58,10 +58,20 @@
   transition: color 150ms, opacity 150ms;
 }
 
-.header-right-section button:hover {
+.header-button-on:hover {
   color: var(--orange);
 }
 
-.header-right-section button:active {
+.header-button-on:active {
   opacity: 0.8;
+}
+
+.header-button-off {
+  background-color: var(--dark-blue);
+  color: gray;
+  border: none;
+  margin-left: 24px;
+
+  font-size: 16px;
+  font-weight: 700;
 }

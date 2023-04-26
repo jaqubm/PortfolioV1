@@ -10,7 +10,7 @@
 
 
 .home-left-section {
-  padding: 0px 32px 0px 64px;
+  padding: 0px 36px 0px 64px;
 
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@
 
 
 .home-right-section {
-  padding: 0px 64px 0px 64px;
+  padding: 0px 64px 0px 36px;
 
   display: flex;
   justify-content: left;
