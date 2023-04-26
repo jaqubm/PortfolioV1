@@ -1,6 +1,13 @@
+:root {
+  --dark-blue: #13334c;
+  --blue: #005792;
+  --beige: #f6f6e9;
+  --orange: #fd5f00;
+}
+
 body {
   font-family: Roboto, Arial;
   margin: 0;
-  background-color: rgb(255, 255, 255);
-  color: rgb(26, 34, 56);
+  background-color: var(--beige);
+  color: var(--dark-blue);
 }

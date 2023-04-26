@@ -1,6 +1,6 @@
 .header {
-  background-color: rgb(26, 34, 56);
-  color: white;
+  background-color: var(--dark-blue);
+  color: var(--beige);
   height: 66px;
 
   display: flex;
@@ -19,8 +19,8 @@
 }
 
 .header-button-logo {
-  background-color: rgb(26, 34, 56);
-  color: white;
+  background-color: var(--dark-blue);
+  color: var(--beige);
   border: none;
   cursor: pointer;
   
@@ -31,17 +31,17 @@
 }
 
 .header-button-logo span {
-  color: rgb(255, 106, 61);
+  color: var(--orange);
 
   transition: color 150ms, opacity 150ms;
 }
 
 .header-button-logo:hover {
-  color: rgb(255, 106, 61);
+  color: var(--orange);
 }
 
 .header-button-logo:hover span {
-  color: white;
+  color: var(--beige);
 }
 
 .header-button-logo:active {
@@ -58,11 +58,11 @@
 }
 
 .header-right-section button {
-  background-color: rgb(26, 34, 56);
-  color: white;
+  background-color: var(--dark-blue);
+  color: var(--beige);
   border: none;
   cursor: pointer;
-  margin-left: 18px;
+  margin-left: 16px;
 
   font-size: 16px;
   font-weight: 700;
@@ -71,7 +71,7 @@
 }
 
 .header-right-section button:hover {
-  color: rgb(255, 106, 61);
+  color: var(--orange);
 }
 
 .header-right-section button:active {
