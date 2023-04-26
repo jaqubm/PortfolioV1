@@ -1,0 +1,79 @@
+.header {
+  background-color: rgb(26, 34, 56);
+  color: white;
+  height: 66px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.header-left-section {
+  margin-left: 28px;
+}
+
+.header-button-logo {
+  background-color: rgb(26, 34, 56);
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+  font-size: 36px;
+  font-weight: 900;
+
+  transition: color 150ms, opacity 150ms;
+}
+
+.header-button-logo span {
+  color: rgb(255, 106, 61);
+
+  transition: color 150ms, opacity 150ms;
+}
+
+.header-button-logo:hover {
+  color: rgb(255, 106, 61);
+}
+
+.header-button-logo:hover span {
+  color: white;
+}
+
+.header-button-logo:active {
+  opacity: 0.8;
+}
+
+.header-button-logo:active span {
+  opacity: 0.8;
+}
+
+
+.header-right-section {
+  margin-right: 28px;
+}
+
+.header-right-section button {
+  background-color: rgb(26, 34, 56);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 18px;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  transition: color 150ms, opacity 150ms;
+}
+
+.header-right-section button:hover {
+  color: rgb(255, 106, 61);
+}
+
+.header-right-section button:active {
+  opacity: 0.8;
+}
