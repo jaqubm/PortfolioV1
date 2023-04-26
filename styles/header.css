@@ -1,7 +1,7 @@
 .header {
   background-color: var(--dark-blue);
   color: var(--beige);
-  height: 72px;
+  height: 82px;
 
   display: flex;
   justify-content: space-between;
@@ -15,46 +15,26 @@
 
 
 .header-left-section {
-  margin-left: 28px;
+  margin-left: 63px;
 }
 
 .header-button-logo {
   background-color: var(--dark-blue);
   color: var(--beige);
   border: none;
-  cursor: pointer;
+  user-select: none;
   
   font-size: 36px;
   font-weight: 900;
-
-  transition: color 150ms, opacity 150ms;
 }
 
 .header-button-logo span {
   color: var(--orange);
-
-  transition: color 150ms, opacity 150ms;
-}
-
-.header-button-logo:hover {
-  color: var(--orange);
-}
-
-.header-button-logo:hover span {
-  color: var(--beige);
-}
-
-.header-button-logo:active {
-  opacity: 0.8;
-}
-
-.header-button-logo:active span {
-  opacity: 0.8;
 }
 
 
 .header-right-section {
-  margin-right: 28px;
+  margin-right: 64px;
 }
 
 .header-right-section button {
@@ -62,7 +42,7 @@
   color: var(--beige);
   border: none;
   cursor: pointer;
-  margin-left: 16px;
+  margin-left: 24px;
 
   font-size: 16px;
   font-weight: 700;
