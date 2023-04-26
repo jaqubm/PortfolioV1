@@ -1,7 +1,8 @@
 .home-section {
   background-color: var(--beige);
   color: var(--dark-blue);
-  min-height: 100vh;
+  min-height: calc(100vh - 82px);
+  padding-top: 82px;
 
   display: flex;
   align-items: center;
@@ -34,7 +35,7 @@
 
 .home-title {
   color: var(--blue);
-  margin: -3px;
+  margin: -1px;
 
   font-size: 14px;
   font-weight: 400;
@@ -42,6 +43,7 @@
 
 .home-description {
   padding-left: 36px;
+  max-width: 800px;
 
   font-size: 16px;
   font-weight: 500;
@@ -61,4 +63,5 @@
 .home-image {
   max-height: 440px;
   border-radius: 50%;
+  --box-shadow: 0.5px 0.5px 1px rgba(0, 0, 0.03);
 }
