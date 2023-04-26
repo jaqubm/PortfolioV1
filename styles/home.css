@@ -1,0 +1,19 @@
+.home-section {
+  background-color: var(--beige);
+  color: var(--dark-blue);
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.home-right-section {
+
+}
+
+
+.home-left-section {
+
+}
