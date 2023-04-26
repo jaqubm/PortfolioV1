@@ -1,7 +1,7 @@
 .header {
   background-color: var(--dark-blue);
   color: var(--beige);
-  height: 66px;
+  height: 72px;
 
   display: flex;
   justify-content: space-between;
