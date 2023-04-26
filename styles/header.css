@@ -18,7 +18,7 @@
   margin-left: 63px;
 }
 
-.header-button-logo {
+.header-logo {
   background-color: var(--dark-blue);
   color: var(--beige);
   border: none;
@@ -28,13 +28,21 @@
   font-weight: 900;
 }
 
-.header-button-logo span {
+.header-logo span {
   color: var(--orange);
+}
+
+.header-logo .header-work-in-progress {
+  color: var(--beige);
+
+  font-size: 18px;
+  font-weight: 700;
 }
 
 
 .header-right-section {
   margin-right: 64px;
+  white-space: nowrap;
 }
 
 .header-right-section button {
