@@ -1,1 +1,61 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jaqubm | Jakub Matuszak</title>
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/home.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left-section">
+      <p class="header-logo">
+        jaqub<span>m</span> | <span class="header-work-in-progress">work in progress...</span>
+      </p>
+    </div>
+    <div class="header-right-section">
+      <button class="header-button-on" onClick="document.getElementById('home').scrollIntoView();">
+        Home
+      </button>
+      <button class="header-button-off">
+        About me
+      </button>
+      <button class="header-button-off">
+        Portfolio
+      </button>
+      <button class="header-button-off">
+        Contact
+      </button>
+    </div>
+  </header>
+
+  <section class="home-section" id="home">
+    <div class="home-left-section">
+      <p class="home-name">
+        Jakub Matuszak | <span>jaqubm</span>
+      </p>
+      <p class="home-title">
+        &#60;front-end-developer&#47;&#62;
+      </p>
+      <p class="home-hi">
+        Hi!
+      </p>
+      <p class="home-description">
+        I am second-year Computer Science student at Lodz University of Technology with a passion for programming, 
+        a person who loves to code and get known with new technologies and programming tools.
+      </p>
+    </div>
+    <div class="home-right-section">
+      <img class="home-image" src="images/cute-people-playing-laptop.png">
+    </div>
+  </section>
+</body>
+</html>

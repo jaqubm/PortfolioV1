@@ -1,0 +1,17 @@
+:root {
+  --dark-blue: #0c1723;
+  --blue: #005792;
+  --beige: #f6f6f6;
+  --orange: #ff8561;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto, Arial;
+  margin: 0;
+  background-color: var(--beige);
+  color: var(--dark-blue);
+}
