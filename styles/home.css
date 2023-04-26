@@ -2,7 +2,6 @@
   .home-section {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
     align-items: center;
   }
 
@@ -10,7 +9,6 @@
   .home-left-section {
     max-width: 320px;
     margin-right: 44px;
-    margin-top: 36px;
 
     display: flex;
     flex-direction: column;
@@ -23,13 +21,13 @@
     margin: 0;
     white-space: nowrap;
   
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 900;
     text-align: right;
   }
 
   .home-name span {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
   }
 
@@ -42,11 +40,12 @@
   }
 
   .home-hi {
-    margin-top: 12px;
+    color: var(--orange);
+    margin-top: 14px;
     margin-bottom: 0;
-  
+
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     text-align: right;
   }
 
@@ -61,7 +60,10 @@
 
 
   .home-right-section {
-    padding-top: 36px;
+    margin-bottom: 36px;
+
+    display: flex;
+    align-items: end;
 
     flex: 1;
   }
@@ -75,12 +77,11 @@
   .home-section {
     display: flex;
     align-items: center;
-    min-height: calc(100vh - 82px);
   }
 
 
   .home-left-section {
-    padding: 0px 36px 0px 64px;
+    margin: 0px 36px 0px 64px;
 
     display: flex;
     flex-direction: column;
@@ -112,11 +113,12 @@
   }
 
   .home-hi {
+    color: var(--orange);
     margin-top: 18px;
     margin-bottom: 0;
   
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 700;
     text-align: right;
   }
 
@@ -132,7 +134,7 @@
 
 
   .home-right-section {
-    padding: 0px 64px 0px 36px;
+    margin: 0px 64px 0px 36px;
   
     display: flex;
     justify-content: left;
@@ -149,6 +151,7 @@
   background-color: var(--beige);
   color: var(--dark-blue);
   padding-top: 82px;
+  min-height: calc(100vh - 82px);
 }
 
 .home-image {
