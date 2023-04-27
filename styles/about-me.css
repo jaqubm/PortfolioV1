@@ -68,6 +68,30 @@
   .about-me-left-section {
     padding-right: 36px;
   }
+
+  .about-me-title {
+    font-size: 56px;
+  }
+
+  .about-me-introduction {
+    font-size: 20px;
+  }
+
+  .about-me-description-header {
+    font-size: 40px;
+  }
+
+  .about-me-description-content {
+    max-width: 500px;
+
+    font-size: 15px;
+  }
+
+
+  .about-me-right-section {
+    padding-left: 36px;
+    font-size: 18px;
+  }
 }
 
 .about-me-section {
