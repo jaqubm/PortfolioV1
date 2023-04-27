@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/about-me.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +27,7 @@
       <button class="header-button-on" onClick="document.getElementById('home').scrollIntoView();">
         Home
       </button>
-      <button class="header-button-off">
+      <button class="header-button-on" onClick="document.getElementById('about-me').scrollIntoView();">
         About me
       </button>
       <button class="header-button-off">
@@ -47,7 +48,7 @@
         &#60;front-end-developer&#47;&#62;
       </p>
       <p class="home-hi">
-        Hi!
+        👋 Hi!
       </p>
       <p class="home-description">
         I am second-year Computer Science student at Lodz University of Technology with a passion for programming, 
@@ -56,6 +57,14 @@
     </div>
     <div class="home-right-section">
       <img class="home-image" src="images/cute-people-playing-laptop.png">
+    </div>
+  </section>
+
+  <section class="about-me-section" id="about-me">
+    <div>
+      <p>
+        About <span>me_</span>
+      </p>
     </div>
   </section>
 </body>
