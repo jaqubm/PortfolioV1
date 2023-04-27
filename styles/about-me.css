@@ -78,7 +78,7 @@
   text-align: right;
   max-width: 380px;
 
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
 }
 
@@ -96,4 +96,41 @@
   align-items: flex-start;
 
   flex: 1;
+}
+
+.about-me-class {
+  color: var(--orange);
+  margin: 0;
+}
+
+.about-me-class-name {
+  color: var(--beige);
+}
+
+.about-me-padding {
+  padding-left: 16px;
+}
+
+.about-me-comment {
+  color: gray;
+  margin: 12px 0 0 0;
+}
+
+.about-me-function {
+  color: var(--yellow);
+  margin: 12px 0 0 0;
+}
+
+.about-me-return {
+  color: var(--blue);
+  margin: 0;
+}
+
+.about-me-skills {
+  color: var(--beige);
+  margin: 0;
+}
+
+.about-me-brackets {
+  color: var(--beige);
 }
