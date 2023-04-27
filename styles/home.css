@@ -1,69 +1,42 @@
 @media (max-width: 999px) {
   .home-section {
-    display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
   }
 
 
   .home-left-section {
     max-width: 320px;
     margin-right: 44px;
-    margin-top: 36px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-
-    flex: 1;
   }
 
-  .home-name {
-    margin: 0;
-    white-space: nowrap;
-  
-    font-size: 24px;
-    font-weight: 900;
-    text-align: right;
+  .home-name, 
+  .home-surname {
+    font-size: 28px;
   }
 
-  .home-name span {
-    font-size: 16px;
-    font-weight: 700;
+  .home-nickname {
+    font-size: 18px;
   }
 
   .home-title {
-    color: var(--blue);
-    margin: -1px;
-  
     font-size: 12px;
-    font-weight: 400;
   }
 
   .home-hi {
-    margin-top: 12px;
-    margin-bottom: 0;
-  
+    margin-top: 14px;
+
     font-size: 30px;
-    font-weight: 500;
-    text-align: right;
   }
 
   .home-description {
-    margin-top: 0;
-    padding-left: 36px;
-  
     font-size: 14px;
-    font-weight: 500;
-    text-align: right;
   }
 
 
   .home-right-section {
-    padding-top: 36px;
+    margin-bottom: 36px;
 
-    flex: 1;
+    align-items: end;
   }
 
   .home-image {
@@ -71,73 +44,41 @@
   }
 }
 
-@media (min-width: 1000px) {
-  .home-section {
-    display: flex;
-    align-items: center;
-    min-height: calc(100vh - 82px);
-  }
-
-
+@media (min-width: 1000px) and (max-width: 1999px) {
   .home-left-section {
-    padding: 0px 36px 0px 64px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-
-    flex: 1;
+    margin: 0px 36px 0px 64px;
   }
 
-  .home-name {
-    margin: 0;
-    white-space: nowrap;
-  
+  .home-name,
+  .home-surname {
     font-size: 36px;
-    font-weight: 900;
-    text-align: right;
   }
 
-  .home-name span {
+  .home-nickname {
     font-size: 24px;
-    font-weight: 700;
   }
 
   .home-title {
-    color: var(--blue);
-    margin: -1px;
-  
     font-size: 14px;
-    font-weight: 400;
   }
 
   .home-hi {
     margin-top: 18px;
-    margin-bottom: 0;
   
     font-size: 36px;
-    font-weight: 500;
-    text-align: right;
   }
 
   .home-description {
-    margin-top: 0;
-    padding-left: 36px;
     max-width: 390px;
   
     font-size: 16px;
-    font-weight: 500;
-    text-align: right;
   }
 
 
   .home-right-section {
-    padding: 0px 64px 0px 36px;
+    margin: 0px 64px 0px 36px;
   
-    display: flex;
     justify-content: left;
-  
-    flex: 1;
   }
 
   .home-image {
@@ -145,10 +86,111 @@
   }
 }
 
+@media (min-width: 2000px) {
+  .home-left-section {
+    margin: 0px 36px 0px 64px;
+  }
+
+  .home-name, 
+  .home-surname {
+    font-size: 44px;
+  }
+
+  .home-nickname {
+    font-size: 30px;
+  }
+
+  .home-title {
+    font-size: 16px;
+  }
+
+  .home-hi {
+    margin-top: 18px;
+  
+    font-size: 40px;
+  }
+
+  .home-description {
+    max-width: 440px;
+  
+    font-size: 18px;
+  }
+
+
+  .home-right-section {
+    margin: 0px 64px 0px 36px;
+  
+    justify-content: left;
+  }
+
+  .home-image {
+    max-height: 540px;
+  }
+}
+
 .home-section {
   background-color: var(--beige);
   color: var(--dark-blue);
   padding-top: 82px;
+  min-height: calc(100vh - 81px);
+
+  display: flex;
+  align-items: center;
+}
+
+
+.home-left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  flex: 1;
+}
+
+.home-name {
+  margin: 0;
+  white-space: nowrap;
+
+  font-weight: 900;
+  text-align: right;
+}
+
+.home-surname {
+  color: var(--orange);
+}
+
+.home-nickname {
+  font-weight: 700;
+}
+
+.home-title {
+  color: var(--blue);
+  margin: -1px;
+
+  font-weight: 400;
+}
+
+.home-hi {
+  color: var(--orange);
+  margin-bottom: 0;
+
+  font-weight: 900;
+  text-align: right;
+}
+
+.home-description {
+  margin-top: 0;
+  padding-left: 36px;
+
+  font-weight: 500;
+  text-align: right;
+}
+
+
+.home-right-section {
+  display: flex;
+
+  flex: 1;
 }
 
 .home-image {

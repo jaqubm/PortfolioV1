@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>jaqubm | Jakub Matuszak</title>
+  <title>jaqubm.dev</title>
   <link rel="icon" type="image/png" href="images/cute-people-playing-laptop.png">
 
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/about-me.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +27,7 @@
       <button class="header-button-on" onClick="document.getElementById('home').scrollIntoView();">
         Home
       </button>
-      <button class="header-button-off">
+      <button class="header-button-on" onClick="document.getElementById('about-me').scrollIntoView();">
         About me
       </button>
       <button class="header-button-off">
@@ -35,19 +36,22 @@
       <button class="header-button-off">
         Contact
       </button>
+      <a class="header-button-on" href="documents/jaqubm_CV.pdf" style="text-decoration: none;" download>
+        CV
+      </a>
     </div>
   </header>
 
   <section class="home-section" id="home">
     <div class="home-left-section">
       <p class="home-name">
-        Jakub Matuszak | <span>jaqubm</span>
+        Jakub <span class="home-surname">Matuszak</span> | <span class="home-nickname">jaqubm</span>
       </p>
       <p class="home-title">
         &#60;front-end-developer&#47;&#62;
       </p>
       <p class="home-hi">
-        Hi!
+        👋 Hi!
       </p>
       <p class="home-description">
         I am second-year Computer Science student at Lodz University of Technology with a passion for programming, 
@@ -56,6 +60,153 @@
     </div>
     <div class="home-right-section">
       <img class="home-image" src="images/cute-people-playing-laptop.png">
+    </div>
+  </section>
+
+  <section class="about-me-section" id="about-me">
+    <div class="about-me-left-section">
+      <div class="about-me-title-container">
+        <p class="about-me-title">
+          About <span>me</span>&#47;&#62;
+        </p>
+        <p class="about-me-introduction">
+          👨‍💻 Let me tell you something about myself!
+        </p>
+      </div>
+      <div class="about-me-description">
+        <p class="about-me-description-header">
+          Who<span> am </span>I?
+        </p>
+        <p class="about-me-description-content">
+          My name is <span>Jakub</span>, I am 21 years old and currently 
+          I am living in <span>Lodz</span> city in <span>Poland</span>.
+          I am second-year <span>Computer Science</span> student at <span>Lodz University of Technology</span>.
+          I always seek for new adventures and opportunities to be better, 
+          <span>as a person</span> and <span>as a programmer!</span>
+          I can surely admit that I am distinguished by <span>stubborness</span> and <span>conscientiousness</span>.
+        </p>
+      </div>
+      <div class="about-me-description">
+        <p class="about-me-description-header">
+          Cod<span>in</span>g
+        </p>
+        <p class="about-me-description-content">
+          I am <span>passionate programmer</span>, who loves <span>self-development</span>
+          and constantly seeks for opportunities to <span>learn new things</span>!
+          I got intersted in programming when I was <span>14 years old</span>.
+          That is when I started learning <span>basics of programming</span> with <span>C++</span>.
+          Couple years later and here I am, with passion for creating <span>visually pleasing websites</span>
+          and desire to become <span>Full-stack Developer</span> one day! That's why <span>I am working so hard</span>.
+        </p>
+      </div>
+      <div class="about-me-description">
+        <p class="about-me-description-header">
+          H<span>obb</span>ies
+        </p>
+        <p class="about-me-description-content">
+          Yeah, <span>programming</span> isn't my <span>only hobbie</span>..
+        </p>
+        <p class="about-me-description-content">
+          I love <span>building PC's</span> and <span>playing video games</span>,
+          but what's strange, I prefer playing on console.
+          It just feels less stressful for me. Of course, <span>team PlayStation</span>!
+          My favourite games of all time are: <span>The Witcher 3: Wild Hunt</span>,
+          <span>God of War</span>, <span>The Last of Us: Part 1</span> and <span>Uncharted 4</span>.
+          Last year I fell in love with <span>calisthenics</span> and possibilities it gives you
+          of <span>being in control of your own body</span>. The strength that you can gain
+          without even going to the gym is just <span>amazing</span>! Last, but not least -
+          <span>Porsche 718 Cayman GT4</span>, I mean of course <span>whole motosport</span>, 
+          but damn, <span>have you seen this car</span>!?
+        </p>
+      </div>
+    </div>
+    <div class="about-me-right-section">
+      <p class="about-me-class">
+        class <span class="about-me-class-name">Jakub Matuszak</span> <span class="about-me-brackets">&#123;</span>
+      </p>
+      <div class="about-me-padding">
+        <p class="about-me-comment">
+          // My vast variety of skills is continously expanding.
+        </p>
+
+        <p class="about-me-function">
+          contact
+          <span class="about-me-brackets">&#40;&#41; &#123;</span> 
+        </p>
+        <div class="about-me-padding">
+          <p class="about-me-return">
+            return 
+            <span class="about-me-brackets">&#91; &#123;</span><span class="about-me-class-name">&#39;e-mail&#39; &#58;
+            &#39;kontakt.jaqubm@gmail.com&#39;</span><span class="about-me-brackets">&#125; &#93;</span> 
+          </p>
+        </div>
+        <p class="about-me-return">
+          <span class="about-me-brackets">&#125;</span>
+        </p>
+
+        <p class="about-me-function">
+          skills<span class="about-me-brackets">&#40;&#41; &#123;</span>
+        </p>
+        <div class="about-me-padding">
+          <p class="about-me-return">
+            return 
+            <span class="about-me-brackets">&#91; &#123;</span>
+          </p>
+          <div class="about-me-padding">
+            <p class="about-me-skills">
+              &#39;HTML&#39;,
+            </p>
+            <p class="about-me-skills">
+              &#39;CSS&#39;,
+            </p>
+            <p class="about-me-skills">
+              &#39;JavaScript&#39;,
+            </p>
+            <p class="about-me-skills">
+              &#39;Java&#39;,
+            </p>
+            <p class="about-me-skills">
+              &#39;C&#39;,
+            </p>
+            <p class="about-me-skills">
+              &#39;C&#43;&#43;&#39;
+            </p>
+          </div>
+          <p class="about-me-return">
+            <span class="about-me-brackets">&#125; &#93;</span> 
+          </p>
+        </div>
+        <p class="about-me-return">
+          <span class="about-me-brackets">&#125;</span>
+        </p>
+
+        <p class="about-me-function">
+          currently_mastering_skills<span class="about-me-brackets">&#40;&#41; &#123;</span>
+        </p>
+        <div class="about-me-padding">
+          <p class="about-me-return">
+            return 
+            <span class="about-me-brackets">&#91; &#123;</span>
+          </p>
+          <div class="about-me-padding">
+            <p class="about-me-skills">
+              &#39;JavaScript&#39;,
+            </p>
+            <p class="about-me-skills">
+              &#39;Java&#39;,
+            </p>
+            <p class="about-me-skills">
+              &#39;React.js&#39;
+            </p>
+          </div>
+          <p class="about-me-return">
+            <span class="about-me-brackets">&#125; &#93;</span> 
+          </p>
+        </div>
+        <p class="about-me-return">
+          <span class="about-me-brackets">&#125;</span>
+        </p>
+      </div>
     </div>
   </section>
 </body>
