@@ -108,17 +108,53 @@
 
 
   .hamburger-menu {
-    display: block;
-    cursor: pointer;
+    width: 30px;
+    height: 20px;
     margin-right: 32px;
     z-index: 100;
+    cursor: pointer;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
   }
 
-  .bar {
-    width: 30px;
+  .hamburger-menu span {
     height: 3px;
+    width: 30px;
     background-color: var(--beige);
-    margin: 6px 0;
+
+    position: absolute;
+    
+    display: block;
+
+    transform: rotate(0);
+    transition: all 200ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  }
+
+  .bar-one {
+    top: 0px;
+  }
+
+  .bar-two {
+    top: 10px;
+  }
+
+  .bar-three {
+    top: 20px;
+  }
+
+  .hamburger-menu.active .bar-one {
+    transform: translateY(10px) rotate(-45deg);
+  }
+
+  .hamburger-menu.active .bar-two {
+    opacity: 0;
+  }
+
+  .hamburger-menu.active .bar-three {
+    transform: translateY(-10px) rotate(45deg);
   }
 
 
