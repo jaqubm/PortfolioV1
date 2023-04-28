@@ -168,10 +168,6 @@
 }
 
 @media only screen and (min-width: 2000px) {
-  .about-me-left-section {
-    padding-right: 36px;
-  }
-
   .about-me-title {
     font-size: 56px;
   }
@@ -192,7 +188,6 @@
 
 
   .about-me-right-section {
-    padding-left: 36px;
     font-size: 18px;
   }
 }

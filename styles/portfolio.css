@@ -1,0 +1,196 @@
+.portfolio-section {
+  min-height: calc(100vh - 80px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.portfolio-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-title {
+  margin: 0;
+  padding-top: 24px;
+  text-align: right;
+
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.portfolio-title span {
+  color: var(--orange);
+}
+
+
+.portfolio-project-container {
+  display: flex;
+  align-items: center;
+
+  flex: 1;
+}
+
+
+.portfolio-left-section {
+  padding-right: 36px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+  flex: 1;
+}
+
+.portfolio-project-name {
+  margin: 0;
+  text-align: right;
+
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.portfolio-project-name span {
+  color: var(--orange);
+}
+
+.portfolio-project-description {
+  max-width: 380px;
+  margin: 0 0 12px 0;
+  text-align: right;
+
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.portfolio-project-description span {
+  color: var(--blue);
+}
+
+.portfolio-project-links {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.portfolio-project-links a {
+  background-color: var(--beige);
+  color: var(--orange);
+  margin-left: 16px;
+  padding: 5px 8px 5px 8px;
+  border: 3px solid var(--orange);
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+
+  font-size: 16px;
+  font-weight: 900;
+
+  transition: all 150ms;
+}
+
+.portfolio-project-links a:hover {
+  background-color: var(--orange);
+  color: var(--beige);
+}
+
+.portfolio-project-links a:active {
+  opacity: 0.8;
+}
+
+
+.portfolio-right-section {
+  padding-left: 36px;
+
+  flex: 1;
+}
+
+.portfolio-section img {
+  height: 240px;
+  border-radius: 15px;
+}
+
+
+#gamescoop {
+  margin-top: -9px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .portfolio-title-container {
+    flex-direction: column;
+    align-items: flex-end;
+
+    padding-bottom: 24px;
+  }
+
+  .portfolio-title {
+    padding-right: 44px;
+
+    font-size: 32px;
+  }
+
+
+  .portfolio-project-container {
+    padding-bottom: 36px;
+
+    flex-direction: column-reverse;
+  }
+
+  .portfolio-left-section {
+    padding: 0;
+  }
+
+  .portfolio-project-name {
+    padding-top: 4px;
+
+    font-size: 24px;
+  }
+
+  .portfolio-project-description {
+    max-width: 300px;
+
+    font-size: 12px;
+  }
+
+  .portfolio-project-links a {
+    font-size: 13px;
+  }
+
+
+  .portfolio-right-section {
+    padding: 0;
+  }
+
+  .portfolio-right-section img {
+    height: 180px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .portfolio-title {
+    font-size: 56px;
+  }
+
+  .portfolio-project-name {
+    font-size: 40px;
+  }
+
+  .portfolio-project-description {
+    max-width: 500px;
+
+    font-size: 15px;
+  }
+
+  .portfolio-project-links a {
+    font-size: 13px;
+  }
+
+
+  .portfolio-right-section img {
+    max-height: 320px;
+  }
+}
