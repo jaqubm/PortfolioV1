@@ -80,9 +80,8 @@
 
   .nav-menu {
     background-color: var(--dark-blue);
-    height: 260px;
     width: 100%;
-    padding: 0;
+    padding: 12px 0 24px 0;
     margin: 0;
     z-index: -1;
 
