@@ -14,12 +14,11 @@
 }
 
 
-.header-left-section {
-  margin-left: 63px;
+.nav-logo {
+  margin: 0;
+  margin-left: 64px;
   white-space: nowrap;
-}
 
-.header-logo {
   background-color: var(--dark-blue);
   color: var(--beige);
   border: none;
@@ -29,24 +28,19 @@
   font-weight: 900;
 }
 
-.header-logo span {
+.nav-logo span {
   color: var(--orange);
 }
 
-.header-logo .header-work-in-progress {
-  color: var(--beige);
 
-  font-size: 18px;
-  font-weight: 700;
-}
-
-
-.header-right-section {
+.nav-menu {
   margin-right: 64px;
   white-space: nowrap;
+
+  display: flex;
 }
 
-.header-button-on {
+.nav-button {
   background-color: var(--dark-blue);
   color: var(--beige);
   border: none;
@@ -59,20 +53,84 @@
   transition: color 150ms, opacity 150ms;
 }
 
-.header-button-on:hover {
+.nav-button:hover {
   color: var(--orange);
 }
 
-.header-button-on:active {
+.nav-button:active {
   opacity: 0.8;
 }
 
-.header-button-off {
-  background-color: var(--dark-blue);
-  color: gray;
-  border: none;
-  margin-left: 24px;
 
-  font-size: 16px;
-  font-weight: 700;
+.hamburger-menu {
+  display: none;
+}
+
+
+.nav-background {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-logo {
+    margin-left: 32px;
+    z-index: 100;
+  }
+
+
+  .nav-menu {
+    background-color: var(--dark-blue);
+    width: 100%;
+    padding: 12px 0 24px 0;
+    margin: 0;
+    z-index: -1;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: -50vh;
+    left: 0;
+    right: 0;
+
+    transition: all 700ms;
+  }
+
+  .nav-menu.active {
+    top: 82px;
+  }
+
+  .nav-button {
+    font-size: 24px;
+    margin: 0 0 18px 0;
+  }
+
+
+  .hamburger-menu {
+    display: block;
+    cursor: pointer;
+    margin-right: 32px;
+    z-index: 100;
+  }
+
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: var(--beige);
+    margin: 6px 0;
+  }
+
+
+  .nav-background {
+    display: block;
+    background-color: var(--dark-blue);
+    height: 82px;
+    z-index: 50;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
 }

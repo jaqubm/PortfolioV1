@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 82px;
 }
 
 body {
@@ -15,4 +16,8 @@ body {
   margin: 0;
   background-color: var(--beige);
   color: var(--dark-blue);
+}
+
+li {
+  list-style: none;
 }
