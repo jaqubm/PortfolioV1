@@ -8,7 +8,6 @@ contactButton = document.getElementById("contact-button");
 cvDownload = document.getElementById("cv-download");
 
 hamburgerMenu.onclick = function() {
-  console.log("active");
   navBar.classList.toggle("active");
   hamburgerMenu.classList.toggle("active");
 }

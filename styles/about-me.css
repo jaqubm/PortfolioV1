@@ -97,7 +97,7 @@
 .about-me-section {
   background-color: var(--dark-blue);
   color: var(--beige);
-  min-height: calc(100vh - 81px);
+  min-height: calc(100vh - 80px);
 
   display: flex;
 }

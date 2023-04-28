@@ -132,7 +132,7 @@
   background-color: var(--beige);
   color: var(--dark-blue);
   padding-top: 82px;
-  min-height: calc(100vh - 81px);
+  min-height: calc(100vh - 80px);
 
   display: flex;
   align-items: center;
