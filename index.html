@@ -15,31 +15,49 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <script defer src="scripts/hamburger-menu.js"></script>
 </head>
 <body>
   <header class="header">
-    <div class="header-left-section">
-      <p class="header-logo">
-        jaqub<span>m</span> | <span class="header-work-in-progress">work in progress...</span>
-      </p>
+    <p class="nav-logo">
+      jaqub<span>m</span>
+    </p>
+    <nav>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <button id="home-button" class="nav-button">
+            Home
+          </button>
+        </li>
+        <li class="nav-item">
+          <button id="about-me-button" class="nav-button">
+            About me
+          </button>
+        </li>
+        <li class="nav-item">
+          <button id="portfolio-button" class="nav-button">
+            Portfolio
+          </button>
+        </li>
+        <li class="nav-item">
+          <button id="contact-button" class="nav-button">
+            Contact
+          </button>
+        </li>
+        <li class="nav-item">
+          <a id="cv-download" class="nav-button" href="documents/jaqubm_CV.pdf" style="text-decoration: none;" download>
+            CV
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="hamburger-menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
     </div>
-    <div class="header-right-section">
-      <button class="header-button-on" onClick="document.getElementById('home').scrollIntoView();">
-        Home
-      </button>
-      <button class="header-button-on" onClick="document.getElementById('about-me').scrollIntoView();">
-        About me
-      </button>
-      <button class="header-button-off">
-        Portfolio
-      </button>
-      <button class="header-button-off">
-        Contact
-      </button>
-      <a class="header-button-on" href="documents/jaqubm_CV.pdf" style="text-decoration: none;" download>
-        CV
-      </a>
-    </div>
+    <div class="nav-background"></div>
   </header>
 
   <section class="home-section" id="home">
