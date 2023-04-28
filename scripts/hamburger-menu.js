@@ -27,7 +27,7 @@ aboutMeButton.onclick = function() {
 portfolioButton.onclick = function() {
   navBar.classList.toggle("active");
   hamburgerMenu.classList.toggle("active");
-  //document.getElementById("portfolio").scrollIntoView();
+  document.getElementById("portfolio").scrollIntoView();
 }
 
 contactButton.onclick = function() {
