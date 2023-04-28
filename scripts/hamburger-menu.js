@@ -10,28 +10,34 @@ cvDownload = document.getElementById("cv-download");
 hamburgerMenu.onclick = function() {
   console.log("active");
   navBar.classList.toggle("active");
+  hamburgerMenu.classList.toggle("active");
 }
 
 homeButton.onclick = function() {
   navBar.classList.toggle("active");
+  hamburgerMenu.classList.toggle("active");
   document.getElementById("home").scrollIntoView();
 }
 
 aboutMeButton.onclick = function() {
   navBar.classList.toggle("active");
+  hamburgerMenu.classList.toggle("active");
   document.getElementById("about-me").scrollIntoView();
 }
 
 portfolioButton.onclick = function() {
   navBar.classList.toggle("active");
+  hamburgerMenu.classList.toggle("active");
   //document.getElementById("portfolio").scrollIntoView();
 }
 
 contactButton.onclick = function() {
   navBar.classList.toggle("active");
+  hamburgerMenu.classList.toggle("active");
   //document.getElementById("contact").scrollIntoView();
 }
 
 cvDownload.onclick = function() {
   navBar.classList.toggle("active");
+  hamburgerMenu.classList.toggle("active");
 }
