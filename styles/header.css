@@ -2,6 +2,7 @@
   background-color: var(--dark-blue);
   color: var(--beige);
   height: 82px;
+  z-index: 10;
 
   display: flex;
   justify-content: space-between;
