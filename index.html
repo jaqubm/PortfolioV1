@@ -19,6 +19,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
   <script defer src="scripts/hamburger-menu.js"></script>
+  <script defer src="scripts/form-verification.js"></script>
 </head>
 <body>
   <header class="header">
@@ -321,28 +322,32 @@
               </div>
             </div>
             <div class="contact-screen-body-item">
-              <div class="contact-app-form">
+              <form class="contact-app-form" action="https://formsubmit.co/e4f542b2cacd082941337794cf85f468" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://jaqubm.dev">
+
                 <div class="contact-app-form-group">
-                  <input id="contact-name" class="contact-app-form-control" placeholder="NAME">
+                  <input id="contact-name" class="contact-app-form-control" type="text" name="Name" placeholder="NAME" required>
                 </div>
                 <div class="contact-app-form-group">
-                  <input id="contact-email" class="contact-app-form-control" placeholder="EMAIL">
+                  <input id="contact-email" class="contact-app-form-control" type="email" name="Email" placeholder="EMAIL" required>
                 </div>
                 <div class="contact-app-form-group">
-                  <input id="contact-number" class="contact-app-form-control" placeholder="CONTACT NO.">
+                  <input id="contact-number" class="contact-app-form-control" type="number" name="PhoneNo" placeholder="CONTACT NO.">
                 </div>
                 <div class="contact-app-form-group message">
-                  <input id="contact-message" class="contact-app-form-control" placeholder="MESSAGE">
+                  <input id="contact-message" class="contact-app-form-control" type="text" name="Message" placeholder="MESSAGE" required>
                 </div>
+
                 <div class="contact-app-form-group buttons">
                   <button id="contact-cancel" class="contact-app-form-button">
                     CANCEL
                   </button>
-                  <button id="contact-send" class="contact-app-form-button">
+                  <button type="submit" id="contact-send" class="contact-app-form-button">
                     SEND
                   </button>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
