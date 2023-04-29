@@ -185,8 +185,13 @@
     flex-direction: column;
   }
 
+  .contact-screen-body-item {
+    padding-top: 25px;
+  }
+
   .contact-screen-body-item.left {
-    margin-bottom: 24px;
+    padding-top: 50px;
+    padding-bottom: 25px;
   }
 
   .contact-app-title {
