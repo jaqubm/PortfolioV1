@@ -65,6 +65,10 @@
   text-align: right;
 }
 
+.home-description span {
+  color: var(--blue);
+}
+
 
 .home-right-section {
   margin: 0 64px 0 36px;
