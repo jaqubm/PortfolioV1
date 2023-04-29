@@ -4,6 +4,9 @@
   --beige: #f6f6f6;
   --orange: #ff8561;
   --yellow: #fff49e;
+
+  --gray: #666;
+  --light-gray: #888;
 }
 
 html {
