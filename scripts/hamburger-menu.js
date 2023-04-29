@@ -33,7 +33,7 @@ portfolioButton.onclick = function() {
 contactButton.onclick = function() {
   navBar.classList.toggle("active");
   hamburgerMenu.classList.toggle("active");
-  //document.getElementById("contact").scrollIntoView();
+  document.getElementById("contact").scrollIntoView();
 }
 
 cvDownload.onclick = function() {
