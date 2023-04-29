@@ -15,14 +15,14 @@
 }
 
 .contact-screen {
-  background: var(--bg-dark-gray);
+  background-color: var(--bg-dark-gray);
   border-radius: 15px;
 }
 
 
 .contact-screen-header {
   padding: 10px 20px;
-  background: var(--bg-gray);
+  background-color: var(--bg-gray);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 
@@ -45,15 +45,15 @@
 }
 
 .contact-screen-header-button.close {
-  background: var(--mac-red);
+  background-color: var(--mac-red);
 }
 
 .contact-screen-header-button.maximize {
-  background: var(--mac-yellow);
+  background-color: var(--mac-yellow);
 }
 
 .contact-screen-header-button.minimize {
-  background: var(--mac-green);
+  background-color: var(--mac-green);
 }
 
 
