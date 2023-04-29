@@ -12,12 +12,14 @@
   <link rel="stylesheet" href="styles/home.css">
   <link rel="stylesheet" href="styles/about-me.css">
   <link rel="stylesheet" href="styles/portfolio.css">
+  <link rel="stylesheet" href="styles/contact.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
   <script defer src="scripts/hamburger-menu.js"></script>
+  <script defer src="scripts/form-verification.js"></script>
 </head>
 <body>
   <header class="header">
@@ -73,8 +75,10 @@
         👋 Hi!
       </p>
       <p class="home-description">
-        I am second-year Computer Science student at Lodz University of Technology with a passion for programming, 
-        a person who loves to code and get known with new technologies and programming tools.
+        I am <span>second</span>-year <span>Computer Science</span> student 
+        at <span>Lodz University of Technology</span> with a <span>passion</span> for 
+        <span>programming</span>, a person who <span>loves to code</span>
+        and get known with <span>new technologies</span> and <span>programming tools</span>.
       </p>
     </div>
     <div class="home-right-section">
@@ -190,6 +194,12 @@
             <p class="about-me-skills">
               &#39;C&#43;&#43;&#39;
             </p>
+            <p class="about-me-skills">
+              &#39;macOS&#39;,
+            </p>
+            <p class="about-me-skills">
+              &#39;Windows&#39;,
+            </p>
           </div>
           <p class="about-me-return">
             <span class="about-me-brackets">&#125; &#93;</span> 
@@ -236,9 +246,7 @@
           P<span>or</span>tfo<span>lio</span>&#47;&#62;
         </p>
       </div>
-      <div class="portfolio-right-section">
-
-      </div>
+      <div class="portfolio-right-section"></div>
     </div>
     <div class="portfolio-project-container">
       <div class="portfolio-left-section">
@@ -256,7 +264,7 @@
           and <span>number of subscriptions</span>.
         </p>
         <div class="portfolio-project-links">
-          <a href="pages/youtube/youtube.html" target="_blank">
+          <a href="pages/portfolio/youtube/youtube.html" target="_blank">
             PREVIEW
           </a>
           <a href="https://github.com/jaqubm/HTML_CSS_learning" target="_blank">
@@ -286,7 +294,7 @@
           Logo designed by <span>@SebixR</span>
         </p>
         <div class="portfolio-project-links">
-          <a href="pages/gamescoop/gamescoop.html" target="_blank">
+          <a href="pages/portfolio/gamescoop/gamescoop.html" target="_blank">
             PREVIEW
           </a>
           <a href="https://github.com/jaqubm/GameScoop" target="_blank">
@@ -298,6 +306,60 @@
         <img src="images/portfolio_game_scoop.png">
       </div>
     </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+      <div class="contact-section-container">
+        <div class="contact-screen">
+          <div class="contact-screen-header">
+            <div class="contact-screen-header-left">
+              <div class="contact-screen-header-button close"></div>
+              <div class="contact-screen-header-button maximize"></div>
+              <div class="contact-screen-header-button minimize"></div>
+            </div>
+          </div>
+          <div class="contact-screen-body">
+            <div class="contact-screen-body-item left">
+              <div class="contact-app-title">
+                <span>CONTACT</span>
+                <span class="span-white">WITH</span>
+                <span>ME</span>
+              </div>
+              <div class="contact-app-contact">
+                jaqubm.kontakt@gmail.com
+              </div>
+            </div>
+            <div class="contact-screen-body-item">
+              <form class="contact-app-form" action="https://formsubmit.co/e4f542b2cacd082941337794cf85f468" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://jaqubm.dev">
+
+                <div class="contact-app-form-group">
+                  <input id="contact-name" class="contact-app-form-control" type="text" name="Name" placeholder="NAME" required>
+                </div>
+                <div class="contact-app-form-group">
+                  <input id="contact-email" class="contact-app-form-control" type="email" name="Email" placeholder="EMAIL" required>
+                </div>
+                <div class="contact-app-form-group">
+                  <input id="contact-number" class="contact-app-form-control" type="number" name="PhoneNo" placeholder="CONTACT NO.">
+                </div>
+                <div class="contact-app-form-group message">
+                  <input id="contact-message" class="contact-app-form-control" type="text" name="Message" placeholder="MESSAGE" required>
+                </div>
+
+                <div class="contact-app-form-group buttons">
+                  <button id="contact-cancel" class="contact-app-form-button">
+                    CANCEL
+                  </button>
+                  <button type="submit" class="contact-app-form-button">
+                    SEND
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
   </section>
 </body>
 </html>
