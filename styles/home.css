@@ -69,6 +69,15 @@
   color: var(--blue);
 }
 
+.home-icons {
+  display: flex;
+}
+
+.home-icons img {
+  max-height: 32px;
+  margin-left: 9px;
+}
+
 
 .home-right-section {
   margin: 0 64px 0 36px;
