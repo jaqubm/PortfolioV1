@@ -74,7 +74,7 @@
 }
 
 .home-icons img {
-  max-height: 32px;
+  height: 32px;
   margin-left: 9px;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .home-image {
-  max-height: 440px;
+  height: 440px;
   border-radius: 50%;
 }
 
@@ -138,7 +138,7 @@
   }
 
   .home-image {
-    max-height: 320px;
+    height: 320px;
   }
 }
 
@@ -180,6 +180,6 @@
   }
 
   .home-image {
-    max-height: 540px;
+    height: 540px;
   }
 }
