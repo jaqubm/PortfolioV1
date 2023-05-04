@@ -116,6 +116,16 @@
   margin-bottom: 15px;
 }
 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
 .contact-app-form-group.message {
   margin-top: 40px;
 }
