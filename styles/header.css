@@ -24,6 +24,7 @@
   color: var(--beige);
   border: none;
   user-select: none;
+  cursor: pointer;
   
   font-size: 36px;
   font-weight: 900;
