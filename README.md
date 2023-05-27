@@ -4,8 +4,8 @@ Portfolio website built from scratch
 
 ## Tech stack
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ## Live Preview
