@@ -1,6 +1,6 @@
 # Portfolio - jaqubm.dev
 
-My portfolio website built from scratch
+Portfolio website built from scratch
 
 ## Tech stack
 
