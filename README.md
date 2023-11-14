@@ -1,6 +1,6 @@
-# Portfolio - jaqubm.dev
+# Portfolio_v1
 
-Portfolio website built from scratch
+My first portfolio website built from scratch
 
 ## Tech stack
 
@@ -10,7 +10,7 @@ Portfolio website built from scratch
 
 ## Live Preview
 
-Available on: [jaqubm.dev](https://jaqubm.dev)
+Available on: [jaqubm.dev/portfolio_v1](https://jaqubm.dev/portfolio_v1/)
 
 ## Preview
 
