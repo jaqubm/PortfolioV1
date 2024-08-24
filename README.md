@@ -10,7 +10,7 @@ My first portfolio website built from scratch
 
 ## Live Preview
 
-Available on: [jaqubm.dev/PortfolioV1](https://jaqubm.dev/PortfolioV1/)
+Available on: [v1.jaqubm.dev](https://v1.jaqubm.dev/)
 
 ## Preview
 
